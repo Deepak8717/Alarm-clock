@@ -1,0 +1,53 @@
+*{
+	box-sizing: border-box;
+}
+
+html{
+	padding-top:50px;
+}
+
+body{
+	border:8px solid lightgreen;
+	border-radius: 20px;
+	padding:40px;
+	width:60%;
+	height: 400px;
+	margin:0 auto;
+}
+
+#clock{
+	height: 120px;
+	font-size: 40px;
+	font-family: arial;
+	font-weight: bold;;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#alarm-container{
+	text-align: center;
+	font-family: Verdana;
+	font-size: 0.8em;
+	padding: 0.7em;
+}
+
+label{
+	display: inline-block;
+}
+
+.timeofday{
+	background: #eee;
+}
+
+#setButton{
+	float: left;
+	background:lightgreen;
+	margin-top:10px;
+}
+
+#clearButton{
+	float: right;
+	background:red;
+	margin-top:10px;
+}
